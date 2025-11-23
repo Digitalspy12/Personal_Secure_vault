@@ -1,0 +1,9 @@
+Hi there!
+
+You have been asked by {{ invitedBy }} to confirm your membership with the  organization {{ orgName }}.
+
+Confirm Membership: {{ acceptInviteUrl }}
+
+Have a great day!
+
+This email was sent to you 
