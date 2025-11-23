@@ -1,11 +1,11 @@
 #!/bin/bash
+set -o errexit
 
-# 1. Install root dependencies WITHOUT running postinstall
-npm install --ignore-scripts
-
-# 2. Install dependencies only for PWA
+echo "➡️ Installing PWA dependencies..."
 cd packages/pwa
 npm install --ignore-scripts
 
-# 3. Build PWA
+echo "➡️ Building PWA..."
 npm run build
+
+echo "➡️ Build complete! Output is ready in packages/pwa/dist"

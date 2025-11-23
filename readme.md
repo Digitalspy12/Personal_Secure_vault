@@ -10,8 +10,8 @@ A lightweight and secure solution for managing passwords and sensitive data — 
 Padloc includes multiple components, but to run your own instance locally you only need the **Server** and the **Web Client**. Setting it up is straightforward:
 
 ```bash
-git clone git@github.com:padloc/padloc.git
-cd padloc
+git clone 
+cd folder name
 npm ci
 npm start
 ````
@@ -47,7 +47,7 @@ To start development mode, run:
 
 ```bash
 npm run dev
-NODE_OPTIONS=--openssl-legacy-provider npm run dev
+NODE_OPTIONS=--openssl-legacy-provider npm run dev   -- Ubuntu 
 ```
 
 This will start:
@@ -67,6 +67,7 @@ This version is written specifically for:
   `packages/pwa/`
 
 ---
+
 
 # 🚀 Windows Setup Guide for PWA (Padloc)
 
