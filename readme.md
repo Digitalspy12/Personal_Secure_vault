@@ -31,8 +31,8 @@ More detailed guides for deploying a production instance and building custom des
 Prepare your development environment:
 
 ```bash
-git clone git@github.com:padloc/padloc.git
-cd padloc
+git clone 
+cd Personal_secure_vault/packages/pwa
 npm ci
 ```
 
