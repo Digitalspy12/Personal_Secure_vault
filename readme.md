@@ -1,6 +1,4 @@
-Here is the **rewritten version in clean Markdown format**:
 
-````markdown
 # Simple & Secure Password & Data Management
 
 A lightweight and secure solution for managing passwords and sensitive data — built for individuals and teams.
