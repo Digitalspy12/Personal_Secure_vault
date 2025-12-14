@@ -10,8 +10,8 @@ A lightweight and secure solution for managing passwords and sensitive data — 
 Padloc includes multiple components, but to run your own instance locally you only need the **Server** and the **Web Client**. Setting it up is straightforward:
 
 ```bash
-git clone git@github.com:padloc/padloc.git
-cd padloc
+git clone https://github.com/Digitalspy12/Personal_Secure_vault.git
+cd Personal_Secure_vault
 npm ci
 npm start
 ````
