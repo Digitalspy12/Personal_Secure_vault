@@ -1,10 +1,16 @@
+# @padloc/pwa
+
+The Padloc Web Client, a
+[Progressive Web App](https://developers.google.com/web/progressive-web-apps).
+
+## Setup
 
 Currently the `@padloc/pwa` package is meant to be used from within the
 [Padloc monorepo](../../README.md). A standalone npm package is coming soon!
 
 ```sh
-git 
-cd personal_secure_vault
+git clone git@github.com:padloc/padloc.git
+cd padloc
 npm ci
 cd packages/pwa
 ```
@@ -52,3 +58,10 @@ npm run build_and_start
 
 ## Development
 
+For development instructions, please refer to the
+[monorepo readme](../../README.md#development).
+
+## Contributing
+
+For info on how to contribute to Padloc, please refer to the
+[monorepo readme](../../README.md#contributing).

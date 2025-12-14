@@ -15,7 +15,7 @@
         "directory": "packages/pwa"
     },
     "engines": {
-        "node": "22.x",
+        "node": "16.x",
         "npm": "8.x"
     },
     "dependencies": {
